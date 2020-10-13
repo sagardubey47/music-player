@@ -1,0 +1,44 @@
+.searchBar h1 {
+    font-size: 20px;
+    color: gray;
+    margin: 2px 0px 10px 20px;
+}
+
+input {
+    background-color: #29465c;
+    padding: 20px 15px;
+    width: 100%;
+    border: transparent;
+    font-size: 30px;
+    border-radius: 30px;
+}
+
+input:focus {
+ outline-style: none;
+}
+
+input::placeholder {
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 2px;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.titleSearchPage {
+    font-size: 25px;
+    width: 200px;
+    margin: auto;
+}
+
+.artistRow {
+    width: 100%;
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 1% 20%;
+}
+
+.artistRow span {
+    cursor: pointer;
+}

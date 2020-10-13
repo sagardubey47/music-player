@@ -1,0 +1,45 @@
+.userDetailContainer {
+    max-width: 70%;
+    margin: 20px auto;
+}
+
+.firstCOntainer {
+    padding-bottom: 20px;
+    border-bottom: 2px solid #999;
+}
+
+.userDetailH1 {
+    font-size: 25px;
+    margin: 10px 0 ;
+   text-align: center;
+}
+
+.userDetailInput {
+    border-radius: 5px;
+    font-size: 14px;
+    margin: 10px 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.userDetailInput::placeholder { 
+     font-size: 14px;
+     font-weight: lighter;
+     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.userDetailSpan {
+    margin-bottom: 10px;
+    color: #2ebd59;
+}
+
+.userDetailButton {
+    border-radius: 5px;
+    display: block;
+    margin: 0 auto;
+}
+
+@media only screen and (max-width: 500px) {
+    .userDetailContainer {
+        max-width: 90%;
+    }
+}

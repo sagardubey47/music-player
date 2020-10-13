@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    color: white;
+    box-sizing: border-box;
+   
+}
+ 
+body {
+ 
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+ background-image: linear-gradient(to right,  #405d75 0%  , #243949 100% );
+
+}
+
+.getArtist {
+   cursor: pointer;
+}
+
+::-webkit-scrollbar {
+    display: none;
+}
+
+
+/* top container */
+
+#topContainer {
+    display: flex;
+    padding-bottom: 50px;
+   }
+
+          /* navbar */
+          #navigationContainer {
+              flex: 0.2;
+              height: auto;
+              background-color: #353b48;
+              
+          }
+
+          .navIconWrapper {
+             display: flex;
+             justify-content: space-evenly;
+             align-items: center;
+             padding: 10px 20px;
+          }
+
+          #navigationContainer #logo {
+              text-align: center;
+              /* border-bottom: #999 1px solid; */
+              padding-bottom: 10px;
+          }
+
+          #navigationContainer #logo h1,
+          #navigationContainer #logo h3 {
+              font-family: Verdana, Geneva, Tahoma, sans-serif;
+              color: #ec6834;
+              text-shadow: #ff4500 1px 1px 3px;
+          }
+
+          #navigationContainer #logo img {
+              width: 50px;
+              height: 50px;
+              object-fit: cover;
+          }
+
+          .searchBarHead {
+              display: none;
+          }
+          .searchHead {
+              padding: 0;
+              width: 60%;
+          }
+
+          .menu {
+            display: none;
+        }
+
+          .title {
+              font-family: sans-serif;
+              font-size: 16px;
+              display: flex;
+              justify-content: space-between;
+              padding: 10px 20px;
+              
+              /* border-bottom: solid 1px #999; */
+          }
+
+          #active {
+              background-color: #1e272e;
+          }
+
+          .title img {
+              
+              display: inline-block;
+          }
+
+          .title .text {
+              font-size: 16px;
+              margin: auto;
+              text-decoration: none;
+          }
+          .title .text:hover{
+          transition: color transform 200ms ease;
+          color:#a0a0aa;
+          transform: scale(1.1);
+          }
+
+
+               /* main page */
+               
+
+
+
+            /* media query */
+
+           
+
+
+            /* media query ends */
+            
+                /* album page */
+
+               
+                /* song track row */
+
+              
+
+       /* your music  */
+
+       #yourMusicBtn {
+           margin: auto;
+           display: block;   
+       }
+
+       /* playlist */
+
+       .playlistContainer {
+           margin: 35px;
+           cursor: pointer;
+       }
+
+       .playlistContainer:hover {
+           border-bottom: 2px solid rgb(236, 104, 52);
+           transition: transform 200ms ease-in-out;
+           transform: scale(1.05);
+       }
+
+       .playlistContainer h1 {
+           color: #a0a0aa;
+       }
+
+       .playlistIcon img {
+           box-sizing: border-box;
+           border: 1px solid rgb(31, 85, 116);
+           box-shadow: 3px 3px 3px rgb(18, 127, 190);
+       } 
+
+       
+       /* optionsMenu */
+
+       .optionsMenu {
+           display: none;
+           background-color: #2f3640;
+           width: 25%;
+           border: 1px solid rgb(31, 85, 116);
+           box-shadow: 2px 2px 3px rgb(18, 127, 190);
+           border-radius: 10px;
+           position: fixed;
+           z-index: 100;
+       }
+
+       .items {
+           font-size: 16px;
+           text-indent: 25px;
+           -webkit-appearance: none;
+           -moz-appearance: none;
+           border: none;
+           border-radius: 10px;
+           background-color: #2f3640;
+           color: #9ea1a8;
+           width: 100%;
+           padding: 10px 0;
+       }
+
+       .items:focus {
+           outline-style: none;
+       }
+
+       .items:hover {
+           background-color: #333;
+           border-radius: 10px;
+       }

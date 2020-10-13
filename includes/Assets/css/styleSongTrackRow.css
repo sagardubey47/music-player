@@ -1,0 +1,63 @@
+.songTrackRow {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.songTrackRow:hover {
+    background-color: #415d75;
+}
+
+.leftIcon {
+    flex: 0.1;
+}
+
+.info {
+flex: 0.7;
+}
+
+.info .songArtist {
+    color: #939393;
+}
+
+.rightIcon {
+    flex: 0.2;
+}
+
+
+.songTrackRow .playicon  {
+width: 25px;
+}
+
+.songTrackRow .moreicon {
+    width: 20px;
+    visibility: hidden;
+}
+
+.songTrackRow:hover .moreicon {
+    visibility: visible;
+}
+
+.playicon {
+    display: none;
+}
+
+#count {
+font-size: 20px;
+}
+
+.songTrackRow:hover .playicon {
+    display: block;
+}
+.songTrackRow:hover #count {
+display: none;
+}
+
+.info .songTitle {
+    display: block;
+}
+
+.rightIcon .moreicon {
+    margin-right: 25px;
+}

@@ -1,0 +1,73 @@
+@media only screen and (max-width: 755px) {
+
+                                
+    #topContainer {
+        display: grid;
+
+    }
+
+    #mainPage {
+      min-height: 135vh;
+    }
+
+    #navigationContainer {
+        position: sticky;
+        top: 0px;
+        
+        height: auto;
+        width: 100%;
+    }
+
+    .navIconWrapper {
+       padding-bottom: 0;
+    }
+
+    #navigationContainer #logo h1,
+    #navigationContainer #logo h3 {
+        display: none;
+    }
+
+    .searchBarHead {
+        background-color: #29465c;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 10px;
+        margin: 0 5%;
+        border-radius: 30px;
+    }
+
+    .menu {
+        display: block;
+    }
+
+    .navLinksHide {
+        height: 0;
+        display: none;
+       
+    }
+
+    .navLinksShow {
+        height: auto;
+        display: block;
+       
+    }
+
+    .title {
+        display: flex;
+        align-items: center;  
+    }
+    
+    .title > img {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    .title .text {
+        margin-right: auto;
+        margin-left: 15px;
+    }
+    .searchBarSearchPage {
+        display: none;
+    }
+  }

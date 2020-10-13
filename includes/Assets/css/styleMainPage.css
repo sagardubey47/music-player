@@ -1,0 +1,57 @@
+#mainPage {
+    flex: 0.8;
+    min-height: 135vh ;
+    background-image: linear-gradient(to right,  #405d75 0%  , #243949 100% );
+    padding: 15px;
+}
+
+.recomendedSongs {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.gridItem {
+    display: inline-block;
+    margin: 2%;
+    padding: 10px;
+    /* border: #fdcccc solid 1px; */
+    background-color:  #0e1f2c;
+    border-radius: 8px;
+    box-shadow: 3px 3px 4px #587c97;
+}
+
+.gridItem img {
+    height: 150px;
+    width: 150px;
+    object-fit: cover;
+    display: block;
+}
+.gridItem h1 {
+    font-size: 16px;
+    margin: 5px;
+    max-width: 140px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    
+}
+
+.gridItem a {
+    text-decoration: solid;
+}
+
+@media only screen and (max-width: 400px) {
+            
+        .gridItem img {
+            height: 120px;
+            width: 120px;
+           
+        }
+        .gridItem h1 {
+            
+            max-width: 110px;
+            
+            
+        }
+}
